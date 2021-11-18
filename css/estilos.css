@@ -1,0 +1,81 @@
+/* GERAL */
+html, body, header, main, footer, article, div, span, p, a, figure, img, small{
+    margin: 0;
+    /* zera a margem padrão dos navegadores */
+    padding: 0;
+    /* zera o espaçamento estre as letras e os itens padrão dos navegadores */
+    box-sizing: border-box;
+    /* limita um item a um tamanho definido que mesmo que adicionado padding ele vai manter o tamanho definido e não somar ao tamanho definido */
+    text-decoration: none;
+    /* para zerar decoraçoes padrão como azul em links e sublinhados e outras decorações padrão dos navegadores */
+    font-family: sans-serif;
+    /* selecionar tipo de fonte desejado no projeto */
+    outline: none;
+    /* zerar bordinhas dos inputs quando clicado sobre ele */
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  
+}
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+
+    
+
+
+/* BODY */
+body{
+
+}
+
+
+/* HEADER */
+header{
+
+}
+.linhaHeader{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    background-color: black;
+    color:white;
+}
+.col1{
+    margin-left: 200px;
+}
+h1{
+    margin-left: 100px;
+}
+
+/* MAIN */
+main{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    margin-left: 200px;
+}
+#header{
+    text-align: center;
+    
+}
+.linha{
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5px;
+    background-color: lightgray;
+}
+.colRank{
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
