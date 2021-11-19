@@ -14,9 +14,16 @@ html, body, header, main, footer, article, div, span, p, a, figure, img, small{
     /* zerar bordinhas dos inputs quando clicado sobre ele */
 }
 body{
+    padding: 5vh 20vw;
+    
     
 }
 
 table {
+    padding: 0.5vw ;
+    border: 2px solid blue;
+}
 
+h1{
+    
 }
